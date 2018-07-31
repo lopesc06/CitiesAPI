@@ -19,19 +19,64 @@ namespace Cityinfo.API
                 {
                     Id=1,
                     Name = "USA",
-                    Description = "USA Description"
+                    Description = "USA Description",
+                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "USA Point Of Interest #1",
+                            Description = "Description of USA Point Of Interest #1"
+                        },
+                         new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "USA Point Of Interest #2",
+                            Description = "Description of USA Point Of Interest #2"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id=2,
                     Name = "Mexico",
-                    Description = "Mexico Description"
+                    Description = "Mexico Description",
+                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "Mexico Point Of Interest #1",
+                            Description = "Description of Mexico Point Of Interest #1"
+                        },
+                         new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "Mexico Point Of Interest #2",
+                            Description = "Description of Mexico Point Of Interest #2"
+                        }
+                    }
                 },
                 new CityDto()
                 {
                     Id=3,
                     Name = "Chile",
-                    Description = "Chile Description"
+                    Description = "Chile Description",
+                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    {
+                        new PointOfInterestDto()
+                        {
+                            Id = 1,
+                            Name = "Chile Point Of Interest #1",
+                            Description = "Description of Chile Point Of Interest #1"
+                        },
+                         new PointOfInterestDto()
+                        {
+                            Id = 2,
+                            Name = "Chile Point Of Interest #2",
+                            Description = "Description of Chile Point Of Interest #2"
+                        }
+                    }
                 },
 
             };
