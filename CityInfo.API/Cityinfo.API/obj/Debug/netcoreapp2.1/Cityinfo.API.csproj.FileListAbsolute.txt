@@ -1,0 +1,14 @@
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\bin\Debug\netcoreapp2.1\Cityinfo.API.deps.json
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\bin\Debug\netcoreapp2.1\Cityinfo.API.runtimeconfig.json
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\bin\Debug\netcoreapp2.1\Cityinfo.API.runtimeconfig.dev.json
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\bin\Debug\netcoreapp2.1\Cityinfo.API.dll
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\bin\Debug\netcoreapp2.1\Cityinfo.API.pdb
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.csprojAssemblyReference.cache
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.csproj.CoreCompileInputs.cache
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.RazorAssemblyInfo.cache
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.RazorAssemblyInfo.cs
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.AssemblyInfoInputs.cache
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.AssemblyInfo.cs
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.RazorTargetAssemblyInfo.cache
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.dll
+C:\Users\Arturo Escutia\Documents\City demo\CityInfo.API\Cityinfo.API\obj\Debug\netcoreapp2.1\Cityinfo.API.pdb
