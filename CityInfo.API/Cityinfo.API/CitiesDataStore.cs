@@ -20,7 +20,7 @@ namespace Cityinfo.API
                     Id=1,
                     Name = "USA",
                     Description = "USA Description",
-                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
                         new PointOfInterestDto()
                         {
@@ -41,7 +41,7 @@ namespace Cityinfo.API
                     Id=2,
                     Name = "Mexico",
                     Description = "Mexico Description",
-                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
                         new PointOfInterestDto()
                         {
@@ -62,7 +62,7 @@ namespace Cityinfo.API
                     Id=3,
                     Name = "Chile",
                     Description = "Chile Description",
-                    PointOfInterestDto = new List<PointOfInterestDto>()
+                    PointsOfInterest = new List<PointOfInterestDto>()
                     {
                         new PointOfInterestDto()
                         {
