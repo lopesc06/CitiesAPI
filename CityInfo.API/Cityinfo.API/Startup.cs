@@ -2,10 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Cityinfo.API.Entities;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc.Formatters;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Cityinfo.API
@@ -24,10 +26,12 @@ namespace Cityinfo.API
             //services.AddMvc().AddMvcOptions(o => o.OutputFormatters.Add(
             //    new XmlDataContractSerializerOutputFormatter()
             //    ));
+            var connectionString = @"Server=(localdb)\MSSQLLocalDB;Database=CityInfoDB;Trusted_Connection=True;";
+            services.AddDbContext<CityInfoContext>(o => o.UseSqlServer(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env)
+        public void Configure(IApplicationBuilder app, IHostingEnvironment env, CityInfoContext cityInfoContext)
         {
             if (env.IsDevelopment())
             {
@@ -37,6 +41,7 @@ namespace Cityinfo.API
             {
                 app.UseExceptionHandler();
             }
+            cityInfoContext.EnsureSeedDataForContext();
             app.UseStatusCodePages();
             app.UseMvc();
 
